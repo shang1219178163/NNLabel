@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NNLabel'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NNLabel.'
-  s.description      = 'TODO: Add long description of the pod here.'
+  s.version          = '1.0.0'
+  s.summary          = 'NSView Subclass'
+  s.description      = 'macOS NSView custom，like UILabel.'
 
   s.homepage         = 'https://github.com/shang1219178163/NNLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

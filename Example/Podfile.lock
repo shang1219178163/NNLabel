@@ -1,0 +1,27 @@
+PODS:
+  - CocoaExpand (1.0.9.5)
+  - NNLabel (0.1.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - CocoaExpand
+  - NNLabel (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaExpand
+    - SnapKit
+
+EXTERNAL SOURCES:
+  NNLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaExpand: 90ac3f2c06ad42a6585567d72715a6f473b3d41e
+  NNLabel: 35549a3351d194f4767a92530f3ae211ef065070
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 73fe0ff065aefb877747fe7085fe40b5f64b8c20
+
+COCOAPODS: 1.9.1

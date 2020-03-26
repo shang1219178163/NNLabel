@@ -5,6 +5,9 @@ use_frameworks!
 
 target 'NNLabel_Example' do
   pod 'NNLabel', :path => '../'
+  
+  pod 'SnapKit'
+  pod 'CocoaExpand'
 
   target 'NNLabel_Tests' do
     inherit! :search_paths
