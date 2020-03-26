@@ -25,7 +25,7 @@ typedef NS_ENUM(NSInteger, NSContentVerticalAlignment) {
 /// 整体内容垂直对齐方向
 @property(nonatomic, assign) NSContentVerticalAlignment    contentVerticalAlignment;   // default is NSContentVerticalAlignmentTop
 
-@property(nonatomic, assign)        NSLineBreakMode    lineBreakMode;   // default is NSLineBreakByTruncatingTail. used for single and multiple lines of text
+@property(nonatomic, assign)        NSLineBreakMode    lineBreakMode;   // default is NSLineBreakByWordWrapping. used for single and multiple lines of text
 
 // the underlying attributed string drawn by the label, if set, the label ignores the properties above.
 @property(nullable, nonatomic,copy)   NSAttributedString *attributedText;  // default is nil

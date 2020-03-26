@@ -24,6 +24,7 @@
         self.font = [NSFont systemFontOfSize:13 weight:NSFontWeightLight];
         self.textColor = NSColor.labelColor;
         self.textAlignment = NSTextAlignmentLeft;
+        self.lineBreakMode = NSLineBreakByWordWrapping;
         self.contentVerticalAlignment = NSContentVerticalAlignmentTop;
     }
     return self;
@@ -116,6 +117,7 @@
 - (void)drawString:(NSString *)string textColor:(NSColor *)textColor padding:(CGFloat)padding{
     NSMutableParagraphStyle *paraStyle = [NSMutableParagraphStyle.defaultParagraphStyle mutableCopy];
     paraStyle.alignment = self.textAlignment;
+    paraStyle.lineBreakMode = self.lineBreakMode;
 
     NSDictionary *attrDic = @{NSParagraphStyleAttributeName: paraStyle,
                               NSForegroundColorAttributeName: textColor,
