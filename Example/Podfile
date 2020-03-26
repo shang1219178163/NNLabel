@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :osx, '10.12'
+use_frameworks!
+
+target 'NNLabel_Example' do
+  pod 'NNLabel', :path => '../'
+
+  target 'NNLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
