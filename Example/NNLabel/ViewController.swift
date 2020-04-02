@@ -68,7 +68,7 @@ class ViewController: NSViewController {
         guard let windowRect = NSApplication.shared.mainWindow?.frame else { return }
         view = NSView(frame: windowRect)
         view.wantsLayer = true;
-        view.layer!.backgroundColor = NSColor.white.cgColor;
+        view.layer?.backgroundColor = NSColor.white.cgColor;
     }
 
     override func viewDidLoad() {
